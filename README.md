@@ -29,7 +29,6 @@ if __name__ == "__main__":
     app.run()
 ```
 
-<img src="C:\Users\13459\AppData\Roaming\Typora\typora-user-images\image-20230323224505434.png" alt="image-20230323224505434" style="zoom:50%;" />
 
 - **将返回的部分加上前端的标签，就可以使字体样式改变。**
 
@@ -44,7 +43,6 @@ def index():
 
 **文件默认到项目的`templates` 目录中找**
 
-<img src="C:\Users\13459\AppData\Roaming\Typora\typora-user-images\image-20230323225306628.png" alt="image-20230323225306628" style="zoom:67%;" />
 
 - 可以自行定义主机名和端口名
 
@@ -119,13 +117,12 @@ app.run(host="",port=8000)
    	<input type="password" name="pp" id="">
    ```
 
-   <img src="C:\Users\13459\AppData\Roaming\Typora\typora-user-images\image-20230324203058452.png" alt="image-20230324203058452" style="zoom: 67%;" />
 
 
 
 3. **加入地址，在该地址函数返回注册成功**
 
-   ![image-20230324203850533](C:\Users\13459\AppData\Roaming\Typora\typora-user-images\image-20230324203850533.png)
+
 
 4. **接收数据** 
 
@@ -141,7 +138,7 @@ app.run(host="",port=8000)
 
    返回的数据
 
-   <img src="C:\Users\13459\AppData\Roaming\Typora\typora-user-images\image-20230324204409545.png" alt="image-20230324204409545" style="zoom: 50%;" />
+
 
 
 
@@ -169,4 +166,4 @@ def post_reg():
     return "注册成功"
 ```
 
-<img src="C:\Users\13459\AppData\Roaming\Typora\typora-user-images\image-20230324204820609.png" alt="image-20230324204820609" style="zoom:50%;" />
+
